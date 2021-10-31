@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Adactin.NewTest">
+        <methods>
+          <include name="login1"/>
+          <include name="selecthotel"/>
+          <include name="afterMethod"/>
+          <include name="getitinerary"/>
+          <include name="afterClass"/>
+          <include name="bookhotel"/>
+          <include name="seachhotel"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.Adactin.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
